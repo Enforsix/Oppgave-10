@@ -4,20 +4,115 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+    <header>
+      <nav>
+        <a href="#Home"><b>Velkommen</b></a>
+        <a href="#TT"><b>Trolltunga</b></a>
+        <a href="#AK"><b>Ankomst</b></a>
+        <a href="#PA"><b>Parkering</b></a>
+        <a href="#OD"><b>Odda</b></a>
     </nav>
+    </header>
+
     <main>
-      <h1>Home page</h1>
+      <section id="Home" class="Velkommen">
+          <img class="image-box" src="https://www.berg-hansen.no/content/uploads/2021/06/20210609_114302-scaled.jpg" alt="">
+
+        <div class="text-box">
+          <h3>Velkommen til Trolltunga</h3>
+          <p></p>
+        </div>
+      </section>
+
+      <section id="TT" class="første">
+        <div class="text-box">
+          <h3>Trolltunga</h3>
+          <p>Trolltunga er en lang og krevende tur. Fra Parkering 2 (P2) er det kraftig stigning på asfaltert vei før man kommer opp på fjellet. Dersom man går fra P2, tar turen ca. 8-12 timer tur-retur. Med utgangspunkt i at turen går fra Parkering 3 (P3) "Mågelitopp" er turen en god del lettere, da man slipper å starte med den kraftige oppgangen på asfalt, men derimot kan begynne å gå rett innover fjellet, ca. tid 7-10 timer tur-retur. Anbefalt årstid for denne turen er juni-oktober, men jo lenger utover høsten, desto mindre sjanse for en dag uten skyer, og været skifter fort i fjellet, så vær forsiktig. Det er også mulig å parkere bil på alle parkeringene, både P1, P2 og P3 det kommer en ekstra avgift dersom man ønsker å parkere på P3, og her er det begrenset plass, så husk å booke parkering på forhånd. Det er en lang tur, så ha med rikelig med drikke og mat, du skal være ute i mange timer, og i aktivitet. Hodelykt og varme klær er også et must.</p>
+        </div>
+        
+          <img class="image-box" src="https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,h_1080,w_1920/f_jpg/q_65/https://media.newmindmedia.com/TellUs/image/%3Ffile%3D332A28D14F62AB33E8964C05C5D0EE65F4D2AC65.jpg&dh%3D389&dw%3D800&t%3D4" alt="">
+      </section>
+
+      <section id="AK" class="ank">
+          <img class="image-box" src="https://www.visitbergen.com/imageresizer/?image=%2Fdmsimgs%2Fshutterstock_190452515_1111813334.jpg&action=ProductDetailExtraLargeNew" alt="">        
+        <div class="text-box">
+          <h3>Ankomst</h3>
+          <p>For å komme seg til turstart ved P1/P2 eller P3 går det buss fra Odda, eller man kan kjøre bil. Det er ca. 12,5 km å kjøre, og det tar ca. 20 minutter fra Odda til P2 + litt til dersom man ønsker å parkere på P3. NB: P3 parkering må bookes på forhånd.</p>
+        </div>
+      </section>
+
+      <section id="PA" class="tredje">
+        <div class="p1">
+          <h3>P1 i Tyssedal - 220 plasser</h3>
+          <ul>
+            <li>Same dag (til midnatt) - kr 300</li>
+            <li>To dager (til midnatt) - kr 500</li>
+            <li>Tre dager (til midnatt) - kr 700</li>
+            <li>Valgfri transport til P2/P3 må betales separat.</li>
+          </ul>
+          <ul>
+            <li>Avstand til Trolltunga: 38 km t/r</li>
+            <li>Høydeforskjell: 1040 m</li>
+            <li>Total høydeforskjell: 2000 m</li>
+            <li>Estimert gangtid: 15 timer t/r</li>
+          </ul>
+        </div>
+
+        <div class="p2">
+          <h3>P2 Skjeggedal - Hovedstartpunkt - 180 plasser</h3>
+          <ul>
+            <li>Bomvei- og parkeringsavgift (Bomveien er inkludert i prisen)</li>
+            <li>Same dag (til midnatt) - kr 500</li>
+            <li>To dager (til midnatt) - kr 700</li>
+            <li>Tre dager (til midnatt) - kr 900</li>
+            <li>To motorsykler kan dele parkeringsfelt og betale det samme som en bil.</li>
+          </ul>
+          <ul>
+            <li>Avstand til Trolltunga: 27 km t/r</li>
+            <li>Høydeforskjell: 800 m</li>
+            <li>Total høydeforskjell: 1200 m</li>
+            <li>Estimert gangtid: 8-12 timer t/r</li>
+          </ul>
+        </div>
+
+        <div class="p3">
+            <h3>P3 Mågelitopp - 30 plasser (Bare forhåndsbestillinger!)</h3>
+            <ul>
+              <li>(Bomveien er ikke inkludert i prisen!)</li>
+              <li>Same dag (til midnatt) - kr 600</li>
+              <li>Bomveg - kr 200</li>
+            </ul>
+            <ul>
+              <li>Avstand til Trolltunga: 20 km t/r</li>
+              <li>Høydeforskjell: 320 m</li>
+              <li>Total høydeforskjell: 800 m</li>
+              <li>Estimert gangtid: 7-10 timer t/r</li>
+              <li>Sesong for P3: 1. juni - 29. september 2024</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="OD" class="fjerde">
+        <div class="text-box">
+          <h3>Odda</h3>
+          <p>Odda i Hardanger er et veldig fint utgangspunkt for turen til Trolltunga. Her finnes det mange fine overnattingsmuligheter, som for eksempel hoteller, camping eller hostel. Jeg vil sterkt anbefale å ankomme Odda minst dagen før du skal gå turen. Det går buss fra Odda til Trolltunga P1 og P2, og ved P2 går det en liten buss opp til P3 om det skulle være ønskelig.</p>
+        </div>
+          <img class="image-box" src="https://oklandfoto.no/wp-content/uploads/2021/02/DJI_0049.jpg" alt="">
+      </section>
+
     </main>
+    <footer>
+      <img src="/Icon/Home.png" alt="" width="50px" height="50px"  >
+      <img src="/Icon/E-mail.png" alt="" width="50px" height="50px">
+      <p>Laget av Christian</p>
+      <img src="/Icon/IG.png" alt="" width="50px" height="50px">
+      <img src="/Icon/FB.png" alt="" width="50px" height="50px">
+
+    </footer>
   </body>
 </html>
