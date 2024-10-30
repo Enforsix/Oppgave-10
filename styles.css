@@ -32,13 +32,15 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
+    padding-bottom: 50px; 
 }
 
 .første {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 
@@ -46,6 +48,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 
@@ -62,6 +65,10 @@ nav {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+}
+
+.OVER {
+    text-size-adjust: 
 }
 
 .p1{
