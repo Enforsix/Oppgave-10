@@ -10,12 +10,16 @@ header {
     top: 0;
 }
 
+
 nav {
     display: flex;
     justify-content: space-around;
     font-size: 25px;
 }
 
+.buttonColor:hover {
+    background-color: rgb(109, 109, 117);
+  }
 
 .image-box {
     width: 50%;
@@ -26,6 +30,23 @@ nav {
     width: 50%;
     margin: 50px;
 }
+
+.Velkommen{
+    background-color: var(--cardFromLeft);
+    color: rgb(178, 18, 18);
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;  
+}
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-3000px);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+  }
 
 .Velkommen {
     display: flex;
@@ -58,7 +79,28 @@ nav {
     align-items: center;
     padding-top: 150px;
     padding-bottom: 150px;
+    background-color: var(--rotate);
+    animation-name: fullRotation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
 }
+
+@keyframes fullRotation {
+    0% {
+      transform: rotate(0);
+      scale: 0;
+    }
+  
+    50% {
+      transform: rotate(360deg);
+      scale: 1.5;
+    }
+  
+    100%{
+      transform: rotate(0);
+      scale: 1;
+    }
+  }
 
 .fjerde {
     display: flex;
